@@ -3,8 +3,7 @@ from pathlib import Path
 from typing import Optional
 
 import typer
-from .server_utils import verbose_run, fish_setup,tmux_setup,nvim_setup
-from .server_utils import get_dataurl
+from .server_utils import verbose_run, fish_setup, tmux_setup, nvim_setup
 
 app = typer.Typer()
 
